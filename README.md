@@ -58,8 +58,8 @@ W rezultacie powstała baza zawierająca:
 
 W Power Query utworzono dwa odwołania do źródeł:
 
-- `Baza_5` – dataset `5-top_1000_artykulow_monthly`,
-- `Baza_7` – dataset `7-top_100_najczesciej_edytowanych_artykulow_monthly`.
+- `Baza_5` - dataset `5-top_1000_artykulow_monthly`,
+- `Baza_7` - dataset `7-top_100_najczesciej_edytowanych_artykulow_monthly`.
 
 Z obu tabel pozostawiono wyłącznie:
 
@@ -89,6 +89,15 @@ zawierający:
 Po filtrowaniu pozostało:
 
 **3 601 067 rekordów**, czyli około **1,74%** początkowego zbioru.
+
+### 4. Model danych
+
+Raport wykorzystuje model gwiazdy, oparty na dwóch głównych wymiarach:
+
+- `Kalendarz` - obsługa analizy w czasie,
+- `Slownik_Artykulow` - identyfikacja i segmentacja analizowanych artykułów.
+
+W modelu znajdują się również tabele zawierające dane dotyczące wyświetleń i edycji artykułów. Relacje pomiędzy tabelami umożliwiają wspólną analizę popularności oraz aktywności społeczności.
 
 ## Proces przygotowania danych
 
@@ -134,7 +143,7 @@ Raport został podzielony na kilka głównych obszarów:
 
 Podsumowanie najważniejszych informacji dotyczących popularności i aktywności społeczności.
 
-### Reader Perspective
+### Perspektywa czytelnika
 
 Analiza z perspektywy czytelnika:
 
@@ -143,7 +152,7 @@ Analiza z perspektywy czytelnika:
 - rankingi popularności,
 - zmiany miesiąc do miesiąca.
 
-### Community Perspective
+### Praca społeczności
 
 Analiza aktywności społeczności:
 
@@ -152,7 +161,7 @@ Analiza aktywności społeczności:
 - rankingi najczęściej edytowanych artykułów,
 - zmiany aktywności w czasie.
 
-### Segmentation
+### Segmentacja
 
 Segmentacja artykułów na podstawie ich charakterystyki.
 
@@ -173,6 +182,7 @@ Dodatkowo przeanalizowano zależność pomiędzy popularnością artykułów a a
 - **Data visualization**
 - **Data preparation / ETL**
 - **Time-based analysis**
+- **Model gwiazdy**
 
 ## Własny motyw Power BI
 
@@ -198,7 +208,7 @@ Projekt pokazuje pełny proces przygotowania i analizy dużego zbioru danych:
 4. utworzenie słownika artykułów w Power Query,
 5. filtrowanie danych za pomocą SQL,
 6. przygotowanie zbioru do Power BI,
-7. modelowanie danych i tworzenie miar DAX,
+7. modelowanie danych, tworzenie relacji i miar DAX,
 8. analiza trendów i rankingów,
 9. analiza zależności wyświetlenia–edycje,
 10. segmentacja artykułów za pomocą K-means,
@@ -226,7 +236,8 @@ power-bi-wikipedia-analysis/
     ├── executive-summary.png
     ├── reader-perspective.png
     ├── community-perspective.png
-    └── segmentation.png
+    ├── segmentation.png
+    └── model_gwiazdy.png
 ```
 
 ## Pliki, których nie umieszczono w repozytorium
@@ -240,8 +251,8 @@ Plik `gotowe_wyswietlenia_dla_powerbi.csv` jest wynikiem przetworzenia i filtrow
 
 ## Źródła
 
-- #BI_NGO – inicjatywa związana z analizą danych Wikipedii
-- Wikimedia / Wikipedia – dane wykorzystane w projekcie
+- #BI_NGO - inicjatywa związana z analizą danych Wikipedii
+- Wikimedia / Wikipedia - dane wykorzystane w projekcie
 - źródła danych udostępnione przez organizatorów projektu
 
 ## Autor
