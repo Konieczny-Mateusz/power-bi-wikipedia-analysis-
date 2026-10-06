@@ -166,7 +166,7 @@ Analiza aktywności społeczności:
 - zmiany aktywności w czasie.
 
 ### Segmentacja
-![Tooltip Segmentacji](screenshots/08_Segmentacja_Kmeans_Tooltip.png)
+![Tooltip Segmentacji](screenshots/08_Segmentacja_Kmeans.png)
 
 Segmentacja artykułów na podstawie ich charakterystyki.
 
