@@ -91,6 +91,7 @@ Po filtrowaniu pozostało:
 **3 601 067 rekordów**, czyli około **1,74%** początkowego zbioru.
 
 ### 4. Model danych
+![Model Gwiazdy](screenshots/13_Model_gwiazdy.png)
 
 Raport wykorzystuje model gwiazdy, oparty na dwóch głównych wymiarach:
 
@@ -140,10 +141,12 @@ SQLite
 Raport został podzielony na kilka głównych obszarów:
 
 ### Executive Summary
+![Executive Summary](screenshots/02_Executive_Summary.png)
 
 Podsumowanie najważniejszych informacji dotyczących popularności i aktywności społeczności.
 
 ### Perspektywa czytelnika
+![Perspektywa Czytelnika](screenshots/05_Perspektywa_Czytelnika.png)
 
 Analiza z perspektywy czytelnika:
 
@@ -153,6 +156,7 @@ Analiza z perspektywy czytelnika:
 - zmiany miesiąc do miesiąca.
 
 ### Praca społeczności
+![Praca społeczności](screenshots/06_Praca_Spolecznosci_Tooltip.png)
 
 Analiza aktywności społeczności:
 
@@ -162,6 +166,7 @@ Analiza aktywności społeczności:
 - zmiany aktywności w czasie.
 
 ### Segmentacja
+![Tooltip Segmentacji](screenshots/08_Segmentacja_Kmeans_Tooltip.png)
 
 Segmentacja artykułów na podstawie ich charakterystyki.
 
