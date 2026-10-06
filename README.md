@@ -223,21 +223,32 @@ power-bi-wikipedia-analysis/
 │
 ├── power-bi/
 │   ├── Analiza_Wikipedia_Mateusz_Konieczny.pbix
+│   ├── Analiza_Wikipedia_Mateusz_Konieczny.pdf
 │   └── motyw.json
 │
 ├── python/
-│   ├── build_wikipedia_database.py
-│   └── extract_selected_pages.py
+│   ├── tworzenie_bazy_danych.py
+│   └── wyciaganie_danych.py
 │
 ├── data/
-│   └── gotowe_wyswietlenia_dla_powerbi.csv
+│   └── 5-top_1000_artykulow_monthly.csv
+│   └── 7-top_100_najczesciej_edytowanych_artykulow_monthly.csv
+│   └── link_do_danych_BI_NGO.txt
 │
 └── screenshots/
-    ├── executive-summary.png
-    ├── reader-perspective.png
-    ├── community-perspective.png
-    ├── segmentation.png
-    └── model_gwiazdy.png
+    ├── 01_Strona_Glowna.png
+    ├── 02_Executive_Summary.png
+    ├── 03_Opis_Projektu.png
+    ├── 04_Perspektywa_Czytelnika_Tooltip.png
+    ├── 05_Perspektywa_Czytelnika.png
+    ├── 06_Praca_Spolecznosci_Tooltip.png
+    ├── 07_Praca_Spolecznosci.png
+    ├── 08_Segmentacja_Kmeans_Tooltip.png
+    ├── 09_Segmentacja_Kmeans.png
+    ├── 10_Tooltip_Trend_Wyswietlen.png
+    ├── 11_Tooltip_Aktywnosc_Edycje.png
+    ├── 12_Tooltip_Rozklad_Ruchu.png
+    └── 13_Model_gwiazdy.png
 ```
 
 ## Pliki, których nie umieszczono w repozytorium
@@ -246,8 +257,7 @@ Ze względu na rozmiar nie są przechowywane tutaj:
 
 - oryginalne 126 plików źródłowych,
 - baza `baza_wikipedia.db` o rozmiarze ok. 11,2 GB.
-
-Plik `gotowe_wyswietlenia_dla_powerbi.csv` jest wynikiem przetworzenia i filtrowania danych, a nie surowym źródłem.
+- `gotowe_wyswietlenia_dla_powerbi.csv` jest wynikiem przetworzenia i filtrowania danych, a nie surowym źródłem.
 
 ## Źródła
 
