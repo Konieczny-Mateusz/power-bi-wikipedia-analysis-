@@ -1,0 +1,35 @@
+{
+  "name": "Wikimedia Creative Palette Theme",
+  "dataColors": [
+    "#0E65C0", 
+    "#990000", 
+    "#308557", 
+    "#EE8019", 
+    "#5748B5",
+    "#049DFF",
+    "#F0BC00",
+    "#E679A6",
+    "#71D1B3"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#404040",
+  "tableAccent": "#0C57A8",
+  "textClasses": {
+    "title": {
+      "fontFace": "Cambria, Georgia, serif",
+      "color": "#000000"
+    },
+    "header": {
+      "fontFace": "Cambria, Georgia, serif",
+      "color": "#404040"
+    },
+    "callout": {
+      "fontFace": "Cambria, Georgia, serif",
+      "color": "#0E65C0"
+    },
+    "label": {
+      "fontFace": "Cambria, Georgia, serif",
+      "color": "#7F7F7F"
+    }
+  }
+}
