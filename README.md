@@ -210,7 +210,7 @@ Projekt pokazuje pełny proces przygotowania i analizy dużego zbioru danych:
 6. przygotowanie zbioru do Power BI,
 7. modelowanie danych, tworzenie relacji i miar DAX,
 8. analiza trendów i rankingów,
-9. analiza zależności wyświetlenia–edycje,
+9. analiza zależności wyświetlenia-edycje,
 10. segmentacja artykułów za pomocą K-means,
 11. przygotowanie interaktywnego raportu Power BI.
 
