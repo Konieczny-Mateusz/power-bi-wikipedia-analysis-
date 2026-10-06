@@ -15,7 +15,7 @@ Na tej podstawie przeanalizowano trendy w czasie, rankingi, zależność pomięd
 
 ## Zakres analizy
 
-- okres: **2016–2026**,
+- okres: **2016-2026**,
 - dane w ujęciu miesięcznym,
 - ponad **33 tys. unikalnych identyfikatorów `page_id`** w połączonym i zduplikowanym słowniku artykułów,
 - początkowa baza danych: **207 122 073 rekordy**,
