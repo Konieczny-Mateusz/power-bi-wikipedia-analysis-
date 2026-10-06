@@ -272,6 +272,7 @@ Ze względu na rozmiar nie są przechowywane tutaj:
 
 ## Autor
 
-**Mateusz Konieczny**
+**Mateusz**  
+*Aspiring Data Analyst | Power BI | SQL | Python | Excel | R*
 
 Projekt portfolio w obszarze analizy danych i Business Intelligence.
