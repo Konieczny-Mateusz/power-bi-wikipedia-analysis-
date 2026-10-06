@@ -17,7 +17,7 @@ Na tej podstawie przeanalizowano trendy w czasie, rankingi, zależność pomięd
 
 - okres: **2016-2026**,
 - dane w ujęciu miesięcznym,
-- ponad **33 tys. unikalnych identyfikatorów `page_id`** w połączonym i zduplikowanym słowniku artykułów,
+- ponad 33 tys. unikalnych identyfikatorów **page_id** w słowniku utworzonym poprzez połączenie danych z datasetów 5 i 7 oraz usunięcie duplikatów,,
 - początkowa baza danych: **207 122 073 rekordy**,
 - zbiór po filtrowaniu: **3 601 067 rekordów**,
 - analiza danych dotyczących wyświetleń i edycji artykułów.
@@ -98,7 +98,7 @@ Raport wykorzystuje model gwiazdy, oparty na dwóch głównych wymiarach:
 - `Kalendarz` - obsługa analizy w czasie,
 - `Slownik_Artykulow` - identyfikacja i segmentacja analizowanych artykułów.
 
-W modelu znajdują się również tabele zawierające dane dotyczące wyświetleń i edycji artykułów. Relacje pomiędzy tabelami umożliwiają wspólną analizę popularności oraz aktywności społeczności.
+Model zawiera również tabele faktów dotyczące wyświetleń i edycji artykułów. Relacje pomiędzy tabelami umożliwiają wspólną analizę popularności oraz aktywności społeczności.
 
 ## Proces przygotowania danych
 
@@ -124,7 +124,7 @@ SQLite
       Slownik_Artykulow
                 │
                 ▼
-       unikalne page_id
+unikalne page_id po usunięciu duplikatów
                 │
                 ▼
         Python + SQL
@@ -215,7 +215,7 @@ Projekt pokazuje pełny proces przygotowania i analizy dużego zbioru danych:
 6. przygotowanie zbioru do Power BI,
 7. modelowanie danych, tworzenie relacji i miar DAX,
 8. analiza trendów i rankingów,
-9. analiza zależności wyświetlenia-edycje,
+9. analiza zależności pomiędzy wyświetleniami a liczbą edycji,
 10. segmentacja artykułów za pomocą K-means,
 11. przygotowanie interaktywnego raportu Power BI.
 
@@ -261,7 +261,7 @@ power-bi-wikipedia-analysis/
 Ze względu na rozmiar nie są przechowywane tutaj:
 
 - oryginalne 126 plików źródłowych,
-- baza `baza_wikipedia.db` o rozmiarze ok. 11,2 GB.
+- baza `baza_wikipedia.db` o rozmiarze ok. 11,2 GB,
 - `gotowe_wyswietlenia_dla_powerbi.csv` jest wynikiem przetworzenia i filtrowania danych, a nie surowym źródłem.
 
 ## Źródła
