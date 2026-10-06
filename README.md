@@ -1,4 +1,5 @@
 # Analiza Wikipedii: Popularność vs. Zaangażowanie Społeczności
+![Strona Główna](screenshots/01_Strona_Glowna.png)
 
 Projekt analityczny wykonany w ramach inicjatywy **#BI_NGO**, poświęcony analizie popularności artykułów Wikipedii oraz aktywności społeczności związanej z ich edycją.
 
@@ -17,7 +18,7 @@ Na tej podstawie przeanalizowano trendy w czasie, rankingi, zależność pomięd
 
 - okres: **2016-2026**,
 - dane w ujęciu miesięcznym,
-- ponad 33 tys. unikalnych identyfikatorów **page_id** w słowniku utworzonym poprzez połączenie danych z datasetów 5 i 7 oraz usunięcie duplikatów,,
+- ponad 33 tys. unikalnych identyfikatorów **page_id** w słowniku utworzonym poprzez połączenie danych z datasetów 5 i 7 oraz usunięcie duplikatów,
 - początkowa baza danych: **207 122 073 rekordy**,
 - zbiór po filtrowaniu: **3 601 067 rekordów**,
 - analiza danych dotyczących wyświetleń i edycji artykułów.
