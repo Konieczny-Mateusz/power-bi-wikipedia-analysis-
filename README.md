@@ -8,8 +8,8 @@ Głównym celem analizy było sprawdzenie, czy artykuły Wikipedii, które ciesz
 
 Analiza koncentruje się na dwóch wymiarach:
 
-- **popularność** – liczba wyświetleń artykułów,
-- **zaangażowanie społeczności** – liczba edycji artykułów.
+- **popularność** - liczba wyświetleń artykułów,
+- **zaangażowanie społeczności** - liczba edycji artykułów.
 
 Na tej podstawie przeanalizowano trendy w czasie, rankingi, zależność pomiędzy wyświetleniami i edycjami oraz grupy artykułów o podobnej charakterystyce.
 
