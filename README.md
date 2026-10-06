@@ -146,7 +146,7 @@ Raport został podzielony na kilka głównych obszarów:
 Podsumowanie najważniejszych informacji dotyczących popularności i aktywności społeczności.
 
 ### Perspektywa czytelnika
-![Perspektywa Czytelnika](screenshots/05_Perspektywa_Czytelnika.png)
+![Perspektywa Czytelnika](screenshots/04_Perspektywa_Czytelnika_Tooltip.png)
 
 Analiza z perspektywy czytelnika:
 
@@ -166,7 +166,7 @@ Analiza aktywności społeczności:
 - zmiany aktywności w czasie.
 
 ### Segmentacja
-![Tooltip Segmentacji](screenshots/08_Segmentacja_Kmeans.png)
+![Segmentacja](screenshots/09_Segmentacja_Kmeans.png)
 
 Segmentacja artykułów na podstawie ich charakterystyki.
 
